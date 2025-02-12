@@ -30,7 +30,7 @@ This is a TODO web application built using HTML, CSS, Tailwind CSS, React, TypeS
 ## View project
 
 > Link to the project
-> [DEMO LINK]().
+> [DEMO LINK](https://test-todo-eta.vercel.app/).
 
 ## Preview
 
