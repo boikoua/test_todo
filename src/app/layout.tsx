@@ -1,16 +1,5 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
-
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-});
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-});
 
 export const metadata: Metadata = {
   title: 'ToDo App',
@@ -24,10 +13,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <head>
+        <link
+          rel="shortcut icon"
+          href="/images/favicon.png"
+          type="image/x-icon"
+        />
+      </head>
+      <body className="bg-gray-700">
+        <div className="max-w-2xl mx-auto py-12 px-5">
+          <h1 className="text-slate-100 text-6xl font-bold text-center mb-[40px]">
+            Todo App
+          </h1>
+
+          {children}
+        </div>
       </body>
     </html>
   );

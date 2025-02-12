@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ToDo App
 
-## Getting Started
+## Description
 
-First, run the development server:
+This is a TODO web application built using HTML, CSS, Tailwind CSS, React, TypeScript, Next.js and Git. It allows you to add, delete and mark tasks as completed. The interface has a minimalistic style, ensuring ease of use. Thanks to Next.js, the application is fast and optimized, while Tailwind CSS provides adaptive layout. The code is managed with Git, making version control and deployment easy.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies that have been used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- HTML5
+- CSS3
+- TAILWIND
+- TYPESCRIPT
+- REACT
+- NEXT JS
+- GIT
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instructions for working with the project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Cloning a repository. You need to write `git clone https://github.com/boikoua/test_todo` in terminal.
 
-## Learn More
+2. Go to the project folder `cd test_todo`.
 
-To learn more about Next.js, take a look at the following resources:
+3. Check the node version. The version of node should be `v20.x.x`. To do this, type the command `node -v` in the terminal.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Install dependencies. To do this, enter the `npm install` command.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. Run the project. To do this, enter the `npm run dev` command.
+   After that the project will be available to you at `http://http://localhost:3000/`.
 
-## Deploy on Vercel
+## View project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> Link to the project
+> [DEMO LINK]().
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Preview
+
+![Preview](./preview.jpg)
